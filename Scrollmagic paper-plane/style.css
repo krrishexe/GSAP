@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer{
+    height: 100vh;
+    text-align: center;
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+    font-family: "Montserrat",sans-serif;
+}
+.animation{
+    height: 100vh;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+    position: relative;                 
+    overflow: hidden;
+}
+.paper-plane{
+    height: 100px;
+    top: 50%;
+    left: 0%;
+    position: absolute;
+}
+/* we use position relative whenever we want to move any image or object */
+header h1{
+    font-size: 100px;
+}
