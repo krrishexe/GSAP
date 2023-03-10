@@ -40,4 +40,5 @@ const scene = new ScrollMagic.Scene({
 .addTo(controller);
 
 
-gsap.to(".")
+
+// tokenization stopword add, remove , porterStemmer
