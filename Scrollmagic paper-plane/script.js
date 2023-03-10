@@ -12,9 +12,6 @@ const flightPath ={
         {x:650,y:-100},
         {x:1000,y:100},
         {x:window.innerWidth,y:-300}
-
-
-
     ]
 }
 
@@ -41,3 +38,6 @@ const scene = new ScrollMagic.Scene({
 // .addIndicators()
 .setPin(".animation")
 .addTo(controller);
+
+
+gsap.to(".")
