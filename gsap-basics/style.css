@@ -1,12 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
 .container{
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
+.container2{
+    height: 200vh;
+}
 .box{
-    margin: 50px 0px;
     height: 100px;
     width: 100px;
 }
