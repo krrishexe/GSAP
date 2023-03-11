@@ -4,6 +4,9 @@
     box-sizing: border-box;
     background-color: black;
 }
+body{
+    overflow-x: hidden;
+}
 .container{
     height: 200vh;
     display: flex;
@@ -13,6 +16,12 @@
 }
 .container2{
     height: 200vh;
+}
+.head{
+    color: greenyellow;
+    font-size: 20em;
+    font-family:fantasy;
+    white-space: nowrap;
 }
 .box{
     height: 100px;
